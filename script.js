@@ -205,15 +205,15 @@ function MoverNubes() {
 function GanarPuntos() {
     score++;
     textoScore.innerText = score;
-    if(score == 5){
+    if(score == 15){
         gameVel = 1.2;
         contenedor.classList.add("mediodia");
         scoreSound.play();
-    }else if(score == 10) {
+    }else if(score == 30) {
         gameVel = 1.5;
         contenedor.classList.add("tarde");
         scoreSound.play();
-    } else if(score == 15) {
+    } else if(score == 50) {
         gameVel = 1.8;
         contenedor.classList.add("noche");
         scoreSound.play();
